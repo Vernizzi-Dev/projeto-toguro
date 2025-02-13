@@ -309,7 +309,7 @@ hr{
     }
     #logo-header{
          display: block;
-         margin-left: 24%;
+         margin-left: 23%;
          width: 150px;
          height: 150px;
          padding-top: 3%;
@@ -356,20 +356,24 @@ hr{
         margin-left: 0px;
     }
     .colum-white{
-        flex-direction: column;
-        height: 3000px;
+        flex-direction: row-reverse;
+        height: 630px;
         margin-bottom: 5%;
     }
     .colum-white img{
         margin-left: 30%;
-        width: 150px;
-        height: 400px;
-        margin-top: 90px;
+        width: 80px;
+        height: 200px;
+        margin-top: 50px;
         margin-bottom: 0%;
     }
     .colum-white img:active{
           filter: drop-shadow(5px 6px 15px #5605c7);
          cursor:pointer ;
          transform: scale(1.2);
+    }
+    .lado{
+        display: flex;
+        flex-direction: column;
     }
 }
